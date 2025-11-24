@@ -92,8 +92,13 @@ O projeto utiliza abordagem mobile-first, começando com estilos para smartphone
 
 ### Pesquisa IFRN
 - [Portal IFRN](https://portal.ifrn.edu.br/)
-- [IFRN - Pesquisa](https://portal.ifrn.edu.br/pesquisa)
-- [IFRN - Extensão](https://portal.ifrn.edu.br/extensao)
+- [Trabalhe no IFRN](https://portal.ifrn.edu.br/processos-seletivos/buscar/?tipo=8)
+- IFRN Reitoria
+  - [Pesquisa](https://portal.ifrn.edu.br/institucional/pesquisa-pos-graduacao-e-inovacao/)
+  - [Extensão](https://portal.ifrn.edu.br/institucional/extensao/)
+- IFRN CNAT
+  - [Pesquisa](https://portal.ifrn.edu.br/campus/natalcentral/diretoria-de-pesquisa-e-inovacao/)
+  - [Extensão](https://portal.ifrn.edu.br/institucional/extensao/)
 
 ### Ferramentas de Design
 - [Google Fonts](https://fonts.google.com/)
