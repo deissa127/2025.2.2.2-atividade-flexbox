@@ -318,8 +318,8 @@ ul {
 }
 
 .card-requirements ul {
-    list-style: disc;
-    padding-left: var(--spacing-md);
+    list-style: none; /* Alterado de 'disc' para 'none' para melhor controle dos ícones 'fa-check-circle' */
+    padding-left: 0;
 }
 
 .card-requirements li {
@@ -327,6 +327,13 @@ ul {
     font-size: var(--font-size-sm);
     margin-bottom: var(--spacing-xs);
 }
+
+/* Ajuste: Para garantir que os ícones de checagem do Font Awesome funcionem bem */
+.card-requirements li i {
+    color: var(--primary-color); 
+    margin-right: 0.5rem;
+}
+
 
 .card-footer {
     padding: var(--spacing-md);
@@ -393,6 +400,31 @@ ul {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     color: rgba(255, 255, 255, 0.6);
     font-size: var(--font-size-sm);
+}
+
+/* ===================================
+   Ajustes Obrigatórios para Ícones (Font Awesome)
+   =================================== */
+
+/* Adiciona um pequeno espaçamento à direita de todos os ícones */
+.nav-list a i,
+.btn i,
+.footer-section h3 i,
+.card-badge i,
+.card-requirements h4 i {
+    margin-right: 0.5rem; 
+}
+
+/* Ajuste para o ícone de checagem dentro da lista de requisitos */
+.card-requirements li i {
+    margin-right: 0.5rem;
+    color: var(--primary-color); /* Adiciona cor para destaque visual */
+}
+
+/* Garante que o ícone de seta no final do botão "Saiba Mais" tenha margem à esquerda e não à direita */
+.card-footer .btn i:last-child {
+    margin-right: 0;
+    margin-left: 0.5rem;
 }
 
 /* ===================================
